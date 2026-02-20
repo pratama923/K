@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Putra Zian Pratama - Personal Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    :root {
+      --primary: #6366f1;
+      --bg: #0f172a;
+      --glass: rgba(255, 255, 255, 0.05);
+      --border: rgba(255, 255, 255, 0.1);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top right, #1e1b4b, #0f172a);
+      color: white;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    #app-container {
+      width: 100%;
+      max-width: 450px;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 3px solid var(--primary);
+      padding: 5px;
+      box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+      margin-bottom: 15px;
+    }
+
+    h1 { font-weight: 800; font-size: 1.5rem; margin-bottom: 5px; letter-spacing: -0.5px; }
+    p.desc { color: #94a3b8; font-size: 0.9rem; margin-bottom: 25px; }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 1.4rem;
+      transition: 0.3s;
+      opacity: 0.8;
+    }
+
+    .social-icons a:hover { color: var(--primary); transform: translateY(-3px); opacity: 1; }
+
+    .links-container { display: flex; flex-direction: column; gap: 15px; }
+
+    .link-card {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      padding: 18px;
+      border-radius: 16px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      backdrop-filter: blur(10px);
+    }
+
+    .link-card:hover {
+      background: white;
+      color: black;
+      transform: scale(1.02);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="app-container">
+    <img src="https://leading-rose-cytw12wnzq.edgeone.app/1771256308128.png" class="profile-img" alt="Putra Zian">
+    <h1>Putra Zian Pratama</h1>
+    <p class="desc">Clipper & Student</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="https://wa.me/6283179376066"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-discord"></i></a>
+    </div>
+
+    <div class="links-container">
+      <a href="https://wa.link/v8bc0m" class="link-card">
+        <i class="fas fa-briefcase" style="margin-right: 10px;"></i> Mau nanya atau job
+      </a>
+    </div>
+
+    <footer>Untuk keperluan boleh dm</footer>
+  </div>
+
+</body>
+</html>
